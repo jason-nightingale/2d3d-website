@@ -1,9 +1,11 @@
 import Button from "./components/ui/Button";
 import Section from "./components/ui/Section";
+import Header from "./components/layout/Header";
 
 export default function Home() {
   return (
     <main>
+      <Header />
       <Section className="min-h-[80vh] flex flex-col justify-center">
         <span className="mb-4 text-blue-600 font-semibold uppercase tracking-widest">
           Premium 3D Printed Collectibles
